@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9535E1231C39136900F7B9E3 /* DocExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9535E1221C39136900F7B9E3 /* DocExample.swift */; };
+		9535E1241C39136F00F7B9E3 /* DocExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9535E1221C39136900F7B9E3 /* DocExample.swift */; };
 		95FC7BC21C2702FD0010494E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FC7BC11C2702FD0010494E /* AppDelegate.swift */; };
 		95FC7BC41C2702FD0010494E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FC7BC31C2702FD0010494E /* ViewController.swift */; };
 		95FC7BC71C2702FD0010494E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FC7BC51C2702FD0010494E /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		95FC7BCC1C2702FD0010494E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FC7BCA1C2702FD0010494E /* LaunchScreen.storyboard */; };
 		95FC7BD71C2702FE0010494E /* Tf_IdfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FC7BD61C2702FE0010494E /* Tf_IdfTests.swift */; };
 		95FC7BE21C2702FE0010494E /* Tf_IdfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FC7BE11C2702FE0010494E /* Tf_IdfUITests.swift */; };
+		95FC7BF01C2718D80010494E /* Tf-Idf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FC7BEF1C2718D80010494E /* Tf-Idf.swift */; };
+		95FC7BF11C2723C80010494E /* Tf-Idf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FC7BEF1C2718D80010494E /* Tf-Idf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9535E1221C39136900F7B9E3 /* DocExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocExample.swift; sourceTree = "<group>"; };
 		95FC7BBE1C2702FD0010494E /* Tf-Idf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tf-Idf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FC7BC11C2702FD0010494E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95FC7BC31C2702FD0010494E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		95FC7BDD1C2702FE0010494E /* Tf-IdfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tf-IdfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FC7BE11C2702FE0010494E /* Tf_IdfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tf_IdfUITests.swift; sourceTree = "<group>"; };
 		95FC7BE31C2702FE0010494E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FC7BEF1C2718D80010494E /* Tf-Idf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tf-Idf.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 				95FC7BC81C2702FD0010494E /* Assets.xcassets */,
 				95FC7BCA1C2702FD0010494E /* LaunchScreen.storyboard */,
 				95FC7BCD1C2702FD0010494E /* Info.plist */,
+				95FC7BEF1C2718D80010494E /* Tf-Idf.swift */,
+				9535E1221C39136900F7B9E3 /* DocExample.swift */,
 			);
 			path = "Tf-Idf";
 			sourceTree = "<group>";
@@ -257,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				95FC7BC41C2702FD0010494E /* ViewController.swift in Sources */,
+				9535E1231C39136900F7B9E3 /* DocExample.swift in Sources */,
+				95FC7BF01C2718D80010494E /* Tf-Idf.swift in Sources */,
 				95FC7BC21C2702FD0010494E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				95FC7BD71C2702FE0010494E /* Tf_IdfTests.swift in Sources */,
+				95FC7BF11C2723C80010494E /* Tf-Idf.swift in Sources */,
+				9535E1241C39136F00F7B9E3 /* DocExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				95FC7BE81C2702FE0010494E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95FC7BE91C2702FE0010494E /* Build configuration list for PBXNativeTarget "Tf-IdfTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				95FC7BEB1C2702FE0010494E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95FC7BEC1C2702FE0010494E /* Build configuration list for PBXNativeTarget "Tf-IdfUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				95FC7BEE1C2702FE0010494E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
