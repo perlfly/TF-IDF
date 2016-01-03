@@ -35,13 +35,18 @@ class Tf_IdfTests: XCTestCase {
         
         tf_idf_Ints.addDocument(foo)
         tf_idf_Ints.addDocument(bar)
-        print(tf_idf_Ints.termCount)
+        print(tf_idf_Ints.corpusTermCount)
         print(tf_idf_Ints.documentsTF[foo.documentID])
         print(tf_idf_Ints.documentsForTerm(4))
         print(tf_idf_Ints.documentsForTerm(10))
         
         // Test Empty Docs
         tf_idf_Ints.addDocument(emptyDoc)
+        
+        // Test document remove
+        tf_idf_Ints.removeDocument(foo)
+        print(tf_idf_Ints.corpusTermCount)
+        XCTAssert(tf_idf_Ints.documentsTF[foo.documentID] == nil, "Document's TF not removed")
         
         
         
